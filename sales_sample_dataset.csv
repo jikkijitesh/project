@@ -1,0 +1,501 @@
+Transaction_ID,Customer_ID,Transaction_Date,Category,Product_Name,Price,Quantity,Discount_Percentage,Profit_Margin,Order_Status,Payment_Mode,City,State,Country,Total_Sales
+1,3335,2023-12-14,Furniture,Table,764.93,2,45.93,21,Completed,Offline,San Francisco,Washington,USA,827.2
+2,3062,2023-04-22,Groceries,Bread,850.84,9,39.16,23,Completed,Offline,Seattle,Washington,USA,4658.86
+3,5330,2023-03-13,Groceries,Milk,469.25,1,7.2,48,Returned,Online,Austin,Texas,USA,435.46
+4,5127,2023-10-17,Groceries,Eggs,211.45,5,13.08,22,Pending,Online,Seattle,Washington,USA,918.96
+5,6033,2023-04-04,Clothing,Jeans,587.61,8,49.86,28,Pending,Offline,San Francisco,California,USA,2357.02
+6,1107,2023-07-14,Clothing,T-Shirt,542.47,7,19.16,21,Pending,Offline,New York,Texas,USA,3069.73
+7,6356,2023-07-08,Furniture,Sofa,627.06,1,11.41,27,Pending,Offline,New York,California,USA,555.51
+8,7723,2023-01-04,Furniture,Chair,627.65,3,25.23,30,Pending,Online,Austin,Texas,USA,1407.88
+9,7033,2023-02-02,Groceries,Bread,449.73,3,11.89,38,Completed,Online,San Francisco,Washington,USA,1188.77
+10,7680,2023-03-15,Electronics,Laptop,159.97,3,10.21,37,Completed,Offline,New York,Texas,USA,430.91
+11,4604,2023-09-18,Clothing,T-Shirt,679.14,9,6.79,5,Completed,Offline,Austin,Washington,USA,5697.24
+12,7116,2023-03-27,Clothing,Jacket,104.5,8,34.62,5,Returned,Offline,New York,Texas,USA,546.58
+13,5788,2023-11-10,Electronics,Smartphone,386.81,4,4.98,41,Completed,Online,Austin,Texas,USA,1470.19
+14,7050,2023-05-31,Furniture,Chair,943.92,9,32.12,24,Returned,Online,San Francisco,Washington,USA,5766.6
+15,7534,2023-04-27,Electronics,Smartphone,854.21,9,11.17,29,Completed,Offline,Seattle,Texas,USA,6829.15
+16,6510,2023-12-12,Furniture,Chair,717.83,4,11.85,16,Returned,Online,New York,Washington,USA,2531.07
+17,5899,2023-03-11,Clothing,T-Shirt,852.0,6,47.19,35,Returned,Online,New York,Texas,USA,2699.65
+18,6091,2023-11-19,Clothing,T-Shirt,484.2,8,43.1,23,Returned,Offline,Seattle,Texas,USA,2204.08
+19,5284,2023-03-18,Groceries,Bread,573.06,10,6.2,16,Completed,Offline,Seattle,Texas,USA,5375.3
+20,4482,2023-02-15,Groceries,Eggs,379.34,1,24.02,6,Pending,Offline,Seattle,California,USA,288.22
+21,2345,2023-05-21,Furniture,Table,950.71,4,48.96,8,Completed,Online,Austin,Texas,USA,1940.97
+22,4316,2023-10-04,Electronics,Headphones,660.23,5,42.71,33,Pending,Offline,New York,Texas,USA,1891.23
+23,7718,2023-02-15,Groceries,Eggs,920.69,6,45.77,46,Pending,Online,New York,Washington,USA,2995.74
+24,9364,2023-05-28,Groceries,Milk,451.89,9,2.98,18,Pending,Offline,Austin,California,USA,3945.81
+25,7222,2023-01-13,Groceries,Eggs,561.38,8,33.84,7,Returned,Online,Seattle,California,USA,2971.27
+26,9765,2023-09-28,Furniture,Table,565.82,3,22.04,16,Pending,Offline,San Francisco,California,USA,1323.34
+27,5823,2023-05-25,Furniture,Table,981.81,9,37.43,34,Pending,Offline,San Francisco,California,USA,5528.87
+28,3104,2023-12-24,Electronics,Smartphone,576.48,10,41.67,42,Pending,Online,San Francisco,Texas,USA,3362.61
+29,9565,2023-12-21,Clothing,T-Shirt,387.28,2,47.04,39,Pending,Offline,New York,California,USA,410.21
+30,8568,2023-09-24,Furniture,Chair,983.81,1,41.67,45,Completed,Offline,San Francisco,California,USA,573.86
+31,8556,2023-10-02,Clothing,Jacket,892.6,7,49.26,44,Completed,Offline,Seattle,California,USA,3170.34
+32,6902,2023-10-28,Electronics,Headphones,374.62,3,16.09,45,Pending,Online,San Francisco,Washington,USA,943.03
+33,1325,2023-07-30,Groceries,Milk,695.39,1,29.14,36,Returned,Offline,San Francisco,Texas,USA,492.75
+34,2956,2023-06-11,Clothing,Jacket,778.01,7,37.88,28,Pending,Offline,San Francisco,Texas,USA,3383.1
+35,5313,2023-02-09,Clothing,T-Shirt,25.75,5,11.99,31,Completed,Online,Seattle,Texas,USA,113.31
+36,2648,2023-04-11,Clothing,Jacket,950.53,10,17.18,16,Completed,Online,Austin,California,USA,7872.29
+37,3943,2023-11-08,Furniture,Sofa,932.1,2,36.48,33,Completed,Online,Austin,California,USA,1184.14
+38,3375,2023-09-10,Clothing,T-Shirt,229.86,4,28.08,41,Pending,Offline,San Francisco,California,USA,661.26
+39,7128,2023-10-08,Clothing,T-Shirt,340.4,7,20.74,15,Completed,Online,San Francisco,Washington,USA,1888.61
+40,1266,2023-03-22,Groceries,Bread,977.31,7,4.95,20,Returned,Online,New York,Texas,USA,6502.53
+41,6498,2023-05-12,Clothing,Jacket,726.69,7,35.5,15,Completed,Offline,New York,California,USA,3281.01
+42,5224,2023-06-18,Furniture,Sofa,241.47,8,41.7,23,Pending,Offline,Austin,Washington,USA,1126.22
+43,3102,2023-04-07,Electronics,Headphones,365.26,3,1.74,47,Pending,Online,Austin,California,USA,1076.71
+44,8496,2023-01-18,Furniture,Sofa,958.67,9,40.61,27,Pending,Offline,Austin,California,USA,5124.19
+45,7609,2023-06-12,Clothing,Jeans,893.09,3,22.89,16,Pending,Offline,Austin,Texas,USA,2065.99
+46,7123,2023-01-25,Furniture,Sofa,503.92,5,36.46,42,Pending,Online,San Francisco,California,USA,1600.95
+47,9467,2023-04-21,Electronics,Headphones,396.04,7,30.62,9,Pending,Online,Seattle,Washington,USA,1923.41
+48,6620,2023-01-14,Groceries,Eggs,372.86,10,0.71,25,Pending,Offline,Seattle,Texas,USA,3702.13
+49,5046,2023-09-25,Clothing,T-Shirt,569.36,1,4.86,28,Returned,Offline,New York,Washington,USA,541.69
+50,7328,2023-11-16,Furniture,Chair,933.93,5,16.79,28,Returned,Online,Seattle,Texas,USA,3885.62
+51,7790,2023-03-09,Electronics,Smartphone,225.35,9,40.97,46,Completed,Offline,Austin,Texas,USA,1197.22
+52,4149,2023-12-28,Groceries,Bread,614.44,8,3.18,25,Pending,Online,San Francisco,Texas,USA,4759.21
+53,9120,2023-01-11,Electronics,Laptop,174.22,6,22.63,18,Returned,Offline,Austin,California,USA,808.76
+54,9396,2023-09-12,Furniture,Sofa,387.17,2,33.47,49,Completed,Online,Austin,Texas,USA,515.17
+55,6583,2023-03-12,Electronics,Smartphone,229.24,4,15.06,40,Returned,Offline,Austin,Texas,USA,778.87
+56,4842,2023-12-31,Furniture,Chair,225.87,5,29.1,22,Returned,Online,Seattle,Washington,USA,800.71
+57,9884,2023-06-21,Electronics,Headphones,876.78,9,8.14,43,Pending,Online,New York,Washington,USA,7248.69
+58,3741,2023-09-15,Clothing,Jeans,429.54,8,12.17,39,Completed,Offline,San Francisco,Washington,USA,3018.12
+59,7008,2023-09-25,Clothing,Jeans,63.13,7,6.03,40,Completed,Online,New York,California,USA,415.26
+60,6287,2023-05-16,Electronics,Laptop,635.49,2,12.03,6,Pending,Offline,San Francisco,California,USA,1118.08
+61,6250,2023-08-21,Clothing,T-Shirt,495.57,3,16.16,6,Pending,Online,San Francisco,Washington,USA,1246.46
+62,6119,2023-08-19,Furniture,Table,527.38,8,32.25,23,Completed,Online,Seattle,California,USA,2858.4
+63,5592,2023-08-23,Furniture,Sofa,792.19,3,30.78,44,Pending,Offline,New York,Washington,USA,1645.06
+64,1443,2023-09-24,Groceries,Bread,976.28,9,41.37,9,Completed,Online,San Francisco,California,USA,5151.54
+65,8866,2023-10-07,Groceries,Eggs,676.01,10,44.61,44,Returned,Online,Austin,California,USA,3744.42
+66,2785,2023-03-10,Electronics,Smartphone,434.43,3,3.02,38,Pending,Offline,New York,Washington,USA,1263.93
+67,7493,2023-05-18,Electronics,Smartphone,102.65,1,14.11,17,Pending,Offline,New York,California,USA,88.17
+68,4650,2023-01-26,Groceries,Bread,667.03,8,19.93,30,Pending,Online,Austin,Washington,USA,4272.73
+69,1387,2023-08-06,Electronics,Laptop,16.37,4,8.3,5,Completed,Online,New York,Texas,USA,60.05
+70,4071,2023-03-25,Electronics,Smartphone,802.95,10,23.37,26,Completed,Online,New York,Washington,USA,6153.01
+71,9657,2023-06-20,Clothing,Jeans,823.03,3,4.48,28,Pending,Offline,New York,Washington,USA,2358.47
+72,2415,2023-09-08,Furniture,Sofa,850.24,1,15.93,36,Pending,Online,Seattle,California,USA,714.8
+73,3013,2023-04-29,Furniture,Chair,565.08,3,34.15,43,Completed,Online,Seattle,Washington,USA,1116.32
+74,5499,2023-02-17,Electronics,Headphones,976.92,9,49.71,50,Completed,Online,San Francisco,Texas,USA,4421.64
+75,5089,2023-12-20,Clothing,Jacket,393.55,6,27.85,31,Returned,Offline,New York,California,USA,1703.68
+76,7653,2023-05-27,Clothing,T-Shirt,444.75,1,14.19,36,Pending,Offline,Austin,Texas,USA,381.64
+77,7672,2023-10-21,Clothing,Jeans,844.71,6,22.61,12,Completed,Online,Seattle,Washington,USA,3922.33
+78,8605,2023-12-21,Clothing,Jacket,428.09,7,20.41,17,Completed,Online,Austin,Washington,USA,2385.02
+79,7859,2023-08-23,Clothing,Jeans,694.64,4,28.13,12,Pending,Online,Austin,Washington,USA,1996.95
+80,8029,2023-04-11,Clothing,T-Shirt,718.0,8,47.69,44,Pending,Online,Austin,Washington,USA,3004.69
+81,2480,2023-01-18,Clothing,Jeans,863.03,3,16.1,13,Returned,Offline,New York,Texas,USA,2172.25
+82,8346,2023-06-04,Electronics,Laptop,668.62,9,21.56,45,Returned,Online,New York,Washington,USA,4720.19
+83,9410,2023-08-24,Clothing,Jeans,101.46,9,21.12,23,Returned,Offline,Seattle,Washington,USA,720.28
+84,2625,2023-10-28,Electronics,Headphones,123.09,2,38.35,34,Completed,Online,New York,California,USA,151.77
+85,3515,2023-06-30,Groceries,Bread,38.21,10,22.45,46,Pending,Online,Austin,Texas,USA,296.32
+86,1724,2023-12-12,Furniture,Sofa,91.48,5,24.02,13,Returned,Offline,Seattle,Texas,USA,347.53
+87,5354,2023-06-12,Clothing,Jeans,173.53,3,8.38,6,Returned,Offline,Austin,California,USA,476.96
+88,2794,2023-04-07,Electronics,Headphones,626.16,8,30.66,17,Returned,Online,New York,Texas,USA,3473.43
+89,5758,2023-05-24,Groceries,Milk,558.39,7,33.22,29,Completed,Online,San Francisco,Washington,USA,2610.25
+90,4824,2023-09-07,Electronics,Smartphone,625.31,10,0.94,50,Returned,Online,New York,Washington,USA,6194.32
+91,7599,2023-11-08,Clothing,Jeans,242.89,10,35.64,26,Returned,Offline,San Francisco,Washington,USA,1563.24
+92,6219,2023-01-07,Electronics,Headphones,416.27,4,42.74,18,Returned,Online,San Francisco,Washington,USA,953.42
+93,3131,2023-10-11,Furniture,Chair,341.52,1,9.7,18,Returned,Online,Austin,California,USA,308.39
+94,2310,2023-04-25,Furniture,Table,143.5,1,1.28,23,Pending,Offline,Seattle,Texas,USA,141.66
+95,6624,2023-02-27,Furniture,Chair,976.01,9,35.09,10,Pending,Offline,San Francisco,Texas,USA,5701.75
+96,3914,2023-05-09,Electronics,Laptop,345.38,10,11.14,29,Returned,Offline,San Francisco,Texas,USA,3069.05
+97,8509,2023-03-14,Electronics,Laptop,988.77,6,46.52,17,Completed,Online,San Francisco,California,USA,3172.77
+98,7252,2023-09-27,Groceries,Bread,506.43,9,42.68,8,Pending,Offline,New York,California,USA,2612.57
+99,3279,2023-12-14,Furniture,Sofa,297.55,10,1.02,31,Completed,Online,New York,California,USA,2945.15
+100,6678,2023-04-25,Groceries,Milk,126.69,8,29.63,15,Completed,Online,Austin,Texas,USA,713.21
+101,9128,2023-05-28,Furniture,Sofa,161.93,8,47.28,45,Completed,Online,Seattle,Texas,USA,682.96
+102,7900,2023-06-10,Furniture,Chair,849.71,4,17.03,47,Returned,Online,Seattle,Washington,USA,2820.02
+103,1169,2023-05-02,Electronics,Laptop,164.22,3,47.66,46,Returned,Offline,New York,California,USA,257.86
+104,9279,2023-11-08,Clothing,Jacket,267.65,1,47.32,22,Pending,Online,Austin,California,USA,141.0
+105,7656,2023-04-23,Furniture,Table,642.7,1,11.1,10,Completed,Online,New York,California,USA,571.36
+106,2172,2023-11-24,Groceries,Milk,563.67,7,3.86,42,Completed,Online,New York,Texas,USA,3793.39
+107,5346,2023-04-19,Furniture,Sofa,792.31,3,36.62,11,Returned,Offline,New York,California,USA,1506.5
+108,6195,2023-07-26,Electronics,Laptop,971.47,10,16.01,19,Pending,Offline,Austin,Texas,USA,8159.38
+109,9526,2023-10-16,Groceries,Eggs,578.44,6,26.77,9,Completed,Online,San Francisco,Texas,USA,2541.55
+110,1371,2023-03-04,Clothing,Jacket,398.08,6,26.27,39,Pending,Online,New York,Texas,USA,1761.03
+111,7372,2023-10-15,Groceries,Milk,572.54,8,27.87,37,Returned,Online,New York,Washington,USA,3303.78
+112,4759,2023-01-09,Furniture,Sofa,326.92,2,11.23,41,Completed,Offline,San Francisco,Texas,USA,580.41
+113,2661,2023-08-14,Electronics,Laptop,365.87,10,12.78,41,Pending,Offline,Austin,Texas,USA,3191.12
+114,6325,2023-04-29,Furniture,Table,350.42,4,3.24,34,Returned,Online,Seattle,Texas,USA,1356.27
+115,3244,2023-03-27,Groceries,Milk,674.38,4,11.01,6,Returned,Offline,New York,Washington,USA,2400.52
+116,3582,2023-10-04,Clothing,Jacket,900.41,9,29.15,5,Returned,Offline,San Francisco,California,USA,5741.46
+117,6028,2023-08-09,Clothing,T-Shirt,289.24,7,36.9,17,Returned,Offline,New York,Texas,USA,1277.57
+118,8135,2023-10-15,Groceries,Bread,117.25,1,8.52,17,Returned,Online,New York,Texas,USA,107.26
+119,2410,2023-04-04,Furniture,Sofa,989.29,10,5.29,32,Pending,Offline,Seattle,Texas,USA,9369.57
+120,6056,2023-02-21,Electronics,Smartphone,815.98,2,2.47,49,Completed,Offline,Austin,Washington,USA,1591.65
+121,7050,2023-04-19,Electronics,Laptop,72.02,1,12.24,13,Returned,Offline,New York,California,USA,63.2
+122,2320,2023-03-11,Groceries,Bread,889.43,7,35.72,29,Pending,Offline,Austin,Washington,USA,4002.08
+123,9991,2023-05-02,Electronics,Headphones,326.96,7,41.34,48,Returned,Online,Austin,Washington,USA,1342.56
+124,2062,2023-11-11,Electronics,Headphones,485.22,3,9.05,32,Pending,Offline,San Francisco,California,USA,1323.92
+125,4862,2023-07-17,Clothing,T-Shirt,505.61,4,18.18,49,Pending,Offline,Austin,Washington,USA,1654.76
+126,6361,2023-04-02,Electronics,Smartphone,272.81,8,17.66,29,Pending,Offline,San Francisco,Washington,USA,1797.05
+127,3300,2023-05-04,Electronics,Laptop,419.76,6,24.17,14,Pending,Online,Seattle,Washington,USA,1909.82
+128,1673,2023-10-31,Groceries,Eggs,88.02,4,26.93,49,Pending,Offline,New York,Washington,USA,257.26
+129,1114,2023-07-05,Clothing,Jeans,765.99,9,24.87,34,Completed,Online,New York,Washington,USA,5179.39
+130,6188,2023-08-27,Clothing,Jeans,278.36,5,17.72,47,Pending,Online,San Francisco,Texas,USA,1145.17
+131,1640,2023-03-10,Electronics,Smartphone,474.13,7,5.55,49,Completed,Online,New York,California,USA,3134.71
+132,8671,2023-11-24,Groceries,Milk,967.52,2,8.32,24,Completed,Offline,Seattle,California,USA,1774.04
+133,2972,2023-06-27,Groceries,Bread,930.99,6,36.19,43,Completed,Offline,Austin,California,USA,3564.39
+134,4717,2023-02-10,Electronics,Headphones,358.42,5,10.55,9,Completed,Offline,San Francisco,California,USA,1603.03
+135,2802,2023-01-23,Furniture,Table,956.55,8,17.32,34,Pending,Online,Austin,Washington,USA,6327.0
+136,7311,2023-11-09,Groceries,Eggs,92.95,6,14.99,20,Pending,Online,San Francisco,Washington,USA,474.1
+137,6649,2023-05-18,Electronics,Laptop,208.32,8,2.21,49,Pending,Online,Seattle,Washington,USA,1629.73
+138,9762,2023-06-20,Electronics,Smartphone,365.75,10,11.15,21,Pending,Offline,Austin,Washington,USA,3249.69
+139,9384,2023-05-03,Furniture,Chair,701.17,4,44.82,35,Returned,Online,San Francisco,Washington,USA,1547.62
+140,4972,2023-01-20,Groceries,Eggs,465.07,4,1.36,17,Returned,Online,Austin,Washington,USA,1834.98
+141,3055,2023-07-04,Clothing,Jacket,165.93,7,6.02,9,Completed,Online,New York,Washington,USA,1091.59
+142,6101,2023-09-07,Electronics,Laptop,724.34,2,29.86,8,Returned,Online,San Francisco,California,USA,1016.1
+143,1303,2023-05-30,Electronics,Laptop,219.82,5,25.39,23,Returned,Online,Austin,California,USA,820.04
+144,5951,2023-05-28,Furniture,Chair,503.2,8,9.72,6,Pending,Online,San Francisco,Washington,USA,3634.31
+145,7336,2023-08-02,Electronics,Laptop,172.49,10,48.11,41,Pending,Offline,Austin,Texas,USA,895.05
+146,3439,2023-06-08,Groceries,Milk,142.38,2,21.73,47,Pending,Online,New York,Washington,USA,222.88
+147,8387,2023-05-07,Furniture,Chair,71.64,4,30.02,41,Returned,Online,Austin,Washington,USA,200.53
+148,1733,2023-08-31,Electronics,Smartphone,352.71,10,30.96,7,Pending,Offline,Austin,Texas,USA,2435.11
+149,2633,2023-09-29,Clothing,Jacket,781.64,5,47.41,5,Pending,Offline,Austin,Texas,USA,2055.32
+150,8838,2023-10-09,Clothing,Jacket,616.73,2,47.16,24,Completed,Online,Seattle,Washington,USA,651.76
+151,9446,2023-08-02,Electronics,Smartphone,598.28,9,11.56,34,Pending,Offline,Austin,Texas,USA,4762.07
+152,4530,2023-12-09,Electronics,Laptop,925.88,1,0.25,45,Completed,Online,New York,Washington,USA,923.57
+153,5616,2023-01-25,Electronics,Smartphone,996.61,7,24.97,24,Returned,Offline,San Francisco,Texas,USA,5234.3
+154,1071,2023-12-08,Electronics,Laptop,232.31,5,1.46,5,Completed,Online,Austin,Washington,USA,1144.59
+155,3229,2023-02-11,Clothing,T-Shirt,338.99,4,29.48,44,Returned,Offline,San Francisco,Washington,USA,956.22
+156,8710,2023-05-01,Clothing,Jacket,159.72,7,32.03,28,Pending,Offline,San Francisco,Washington,USA,759.93
+157,6373,2023-03-26,Electronics,Laptop,735.76,10,16.27,6,Completed,Offline,Austin,Washington,USA,6160.52
+158,6087,2023-09-18,Electronics,Headphones,398.16,9,0.36,22,Completed,Online,Seattle,Texas,USA,3570.54
+159,2356,2023-06-25,Electronics,Headphones,553.55,3,43.65,49,Returned,Online,San Francisco,Texas,USA,935.78
+160,2609,2023-10-24,Clothing,Jeans,199.71,1,30.84,23,Returned,Offline,San Francisco,California,USA,138.12
+161,2750,2023-01-31,Electronics,Smartphone,852.72,6,44.6,49,Pending,Online,Seattle,California,USA,2834.44
+162,5620,2023-12-22,Groceries,Bread,664.89,3,34.88,16,Completed,Offline,Austin,California,USA,1298.93
+163,3239,2023-12-11,Electronics,Laptop,943.81,3,28.32,33,Returned,Online,Seattle,Washington,USA,2029.57
+164,5845,2023-07-19,Groceries,Milk,552.73,1,22.62,35,Completed,Online,New York,California,USA,427.7
+165,9902,2023-05-03,Electronics,Headphones,438.9,4,34.1,16,Completed,Online,Austin,Washington,USA,1156.94
+166,9660,2023-01-27,Groceries,Eggs,855.08,4,38.57,15,Returned,Offline,Austin,California,USA,2101.1
+167,2001,2023-11-26,Furniture,Chair,947.3,8,2.79,14,Pending,Online,Seattle,Texas,USA,7366.96
+168,4014,2023-06-09,Clothing,Jacket,402.93,1,38.41,31,Returned,Online,Seattle,Texas,USA,248.16
+169,1942,2023-12-09,Groceries,Milk,286.94,1,35.2,6,Completed,Offline,Austin,California,USA,185.94
+170,8273,2023-05-25,Furniture,Table,198.52,4,40.84,39,Pending,Online,Seattle,Washington,USA,469.78
+171,9282,2023-04-18,Electronics,Headphones,145.24,6,9.91,22,Pending,Offline,New York,Washington,USA,785.08
+172,8674,2023-05-31,Furniture,Table,480.86,5,1.27,16,Completed,Offline,Austin,Texas,USA,2373.77
+173,4298,2023-12-26,Groceries,Eggs,565.32,9,37.32,38,Returned,Online,San Francisco,California,USA,3189.08
+174,4214,2023-05-09,Clothing,Jacket,728.94,9,27.91,25,Returned,Offline,San Francisco,California,USA,4729.44
+175,4173,2023-03-02,Groceries,Milk,764.72,7,11.57,20,Completed,Offline,Seattle,California,USA,4733.69
+176,1202,2023-08-08,Electronics,Laptop,465.03,10,25.12,43,Pending,Online,Seattle,California,USA,3482.14
+177,6698,2023-11-18,Groceries,Milk,136.06,5,23.85,37,Returned,Offline,Seattle,Texas,USA,518.05
+178,4673,2023-07-12,Clothing,Jeans,86.7,9,18.05,10,Completed,Online,San Francisco,Washington,USA,639.46
+179,2966,2023-03-23,Groceries,Bread,151.29,5,30.06,16,Returned,Online,Seattle,Texas,USA,529.06
+180,5163,2023-06-23,Groceries,Milk,462.73,5,15.1,20,Pending,Offline,New York,Texas,USA,1964.29
+181,7111,2023-05-07,Electronics,Laptop,237.13,7,35.22,23,Completed,Online,New York,Texas,USA,1075.29
+182,9536,2023-01-24,Furniture,Chair,574.85,9,22.64,13,Returned,Online,New York,Washington,USA,4002.34
+183,3154,2023-12-11,Clothing,T-Shirt,455.21,3,49.01,6,Pending,Online,New York,Texas,USA,696.33
+184,6403,2023-01-25,Electronics,Headphones,306.78,9,11.49,14,Completed,Online,Austin,Washington,USA,2443.78
+185,5400,2023-08-17,Furniture,Chair,454.49,5,31.39,32,Completed,Offline,New York,California,USA,1559.13
+186,5193,2023-06-30,Furniture,Chair,810.3,3,25.37,27,Completed,Online,San Francisco,Washington,USA,1814.18
+187,7815,2023-12-24,Electronics,Laptop,25.23,3,25.72,8,Returned,Offline,New York,California,USA,56.22
+188,5880,2023-01-01,Clothing,T-Shirt,247.04,7,37.0,43,Pending,Offline,San Francisco,California,USA,1089.45
+189,2344,2023-01-18,Groceries,Milk,562.16,5,46.56,23,Completed,Online,Seattle,California,USA,1502.09
+190,6790,2023-07-14,Groceries,Eggs,166.6,2,40.27,24,Returned,Offline,San Francisco,Texas,USA,199.02
+191,9133,2023-06-19,Clothing,T-Shirt,830.52,10,38.18,22,Pending,Online,Seattle,Texas,USA,5134.27
+192,3096,2023-02-07,Furniture,Chair,861.56,8,19.79,7,Pending,Online,San Francisco,Texas,USA,5528.46
+193,5179,2023-03-20,Groceries,Milk,511.8,8,21.77,31,Completed,Online,Austin,California,USA,3203.05
+194,6815,2023-10-24,Furniture,Table,36.33,9,32.65,21,Returned,Offline,San Francisco,Washington,USA,220.21
+195,4233,2023-07-07,Furniture,Chair,730.79,7,1.26,34,Completed,Offline,San Francisco,Texas,USA,5051.07
+196,9810,2023-05-19,Electronics,Headphones,286.32,7,37.26,30,Completed,Online,Austin,Texas,USA,1257.46
+197,1824,2023-02-11,Clothing,Jeans,599.53,3,22.53,46,Pending,Offline,New York,California,USA,1393.37
+198,3903,2023-08-02,Groceries,Milk,613.74,7,37.51,25,Returned,Online,Austin,Texas,USA,2684.68
+199,2327,2023-01-23,Electronics,Laptop,86.76,3,10.67,50,Completed,Offline,San Francisco,Texas,USA,232.51
+200,9386,2023-02-04,Clothing,Jeans,318.54,9,13.62,17,Completed,Offline,Seattle,Texas,USA,2476.39
+201,3604,2023-03-03,Groceries,Milk,983.85,4,16.75,16,Returned,Online,Seattle,Washington,USA,3276.22
+202,3606,2023-04-15,Groceries,Milk,649.93,6,3.64,13,Returned,Online,Seattle,Texas,USA,3757.64
+203,9777,2023-07-27,Furniture,Table,515.25,10,29.51,12,Returned,Offline,San Francisco,California,USA,3632.0
+204,9757,2023-11-26,Clothing,T-Shirt,499.65,8,18.91,49,Completed,Online,New York,California,USA,3241.33
+205,5647,2023-09-11,Clothing,Jacket,672.49,5,45.97,8,Pending,Offline,Seattle,Texas,USA,1816.73
+206,6379,2023-06-10,Groceries,Milk,706.4,9,9.68,40,Completed,Online,Austin,Texas,USA,5742.18
+207,2254,2023-05-25,Clothing,Jacket,12.24,2,40.62,41,Pending,Online,San Francisco,Washington,USA,14.54
+208,5546,2023-09-15,Clothing,Jacket,799.83,2,13.62,5,Completed,Offline,Austin,Texas,USA,1381.79
+209,7458,2023-06-25,Groceries,Eggs,170.34,2,37.94,42,Pending,Offline,Seattle,Washington,USA,211.43
+210,4745,2023-04-05,Furniture,Table,723.72,2,30.07,29,Completed,Offline,New York,California,USA,1012.19
+211,8464,2023-01-27,Groceries,Eggs,986.01,2,7.13,9,Completed,Offline,Austin,Washington,USA,1831.41
+212,5086,2023-10-09,Groceries,Eggs,812.97,3,25.28,12,Pending,Offline,New York,Texas,USA,1822.35
+213,2619,2023-02-06,Clothing,Jacket,852.95,2,45.14,25,Completed,Online,Austin,Texas,USA,935.86
+214,5574,2023-03-16,Groceries,Bread,280.76,4,12.25,29,Returned,Offline,Austin,Texas,USA,985.47
+215,8059,2023-03-16,Furniture,Sofa,157.03,8,3.31,22,Completed,Online,Austin,California,USA,1214.66
+216,8332,2023-05-18,Furniture,Table,497.69,10,37.7,10,Completed,Offline,New York,Washington,USA,3100.61
+217,3242,2023-07-26,Electronics,Smartphone,790.86,3,4.32,48,Pending,Online,New York,Texas,USA,2270.08
+218,3181,2023-08-28,Groceries,Bread,430.7,8,10.84,28,Pending,Offline,Seattle,Washington,USA,3072.1
+219,6765,2023-05-02,Electronics,Laptop,247.0,1,15.01,12,Pending,Offline,Seattle,California,USA,209.93
+220,3010,2023-03-06,Groceries,Eggs,932.79,1,8.59,49,Returned,Online,Austin,Washington,USA,852.66
+221,7877,2023-08-06,Furniture,Chair,967.23,1,20.62,32,Pending,Online,New York,California,USA,767.79
+222,5986,2023-06-23,Groceries,Bread,626.87,2,2.42,9,Returned,Offline,Austin,Washington,USA,1223.4
+223,4250,2023-12-25,Clothing,Jeans,789.19,9,15.1,35,Completed,Offline,Austin,Texas,USA,6030.2
+224,4397,2023-03-13,Groceries,Eggs,660.76,2,41.34,7,Returned,Offline,New York,Texas,USA,775.2
+225,5233,2023-04-26,Groceries,Eggs,404.79,8,46.04,47,Completed,Offline,New York,California,USA,1747.4
+226,1906,2023-10-08,Electronics,Smartphone,826.82,2,40.71,41,Completed,Offline,Seattle,Washington,USA,980.44
+227,6440,2023-03-19,Furniture,Table,695.47,9,25.82,6,Completed,Offline,New York,California,USA,4643.1
+228,2648,2023-07-17,Clothing,T-Shirt,448.38,6,32.83,16,Completed,Online,San Francisco,Texas,USA,1807.06
+229,5645,2023-06-12,Furniture,Chair,704.3,5,41.01,11,Returned,Online,San Francisco,Washington,USA,2077.33
+230,2466,2023-10-08,Electronics,Laptop,960.75,1,18.94,34,Pending,Offline,Austin,California,USA,778.78
+231,7549,2023-08-24,Furniture,Sofa,873.29,7,47.7,43,Pending,Online,Seattle,Texas,USA,3197.11
+232,6527,2023-06-02,Furniture,Table,523.83,9,49.3,38,Returned,Online,Seattle,California,USA,2390.24
+233,5512,2023-01-01,Electronics,Headphones,120.85,6,5.05,23,Pending,Offline,Seattle,California,USA,688.48
+234,4820,2023-09-29,Furniture,Sofa,689.03,8,13.16,29,Completed,Online,New York,Texas,USA,4786.83
+235,9798,2023-08-01,Furniture,Sofa,729.48,7,40.39,5,Pending,Offline,Austin,California,USA,3043.9
+236,7350,2023-11-21,Groceries,Bread,697.95,7,12.79,41,Completed,Offline,San Francisco,Texas,USA,4260.78
+237,8370,2023-07-27,Clothing,Jacket,339.14,5,19.32,10,Returned,Online,New York,California,USA,1368.09
+238,8777,2023-10-22,Groceries,Eggs,474.46,4,13.42,7,Returned,Offline,San Francisco,California,USA,1643.15
+239,8531,2023-12-31,Clothing,Jacket,529.2,10,30.48,33,Returned,Offline,Austin,Washington,USA,3679.0
+240,7086,2023-03-21,Groceries,Bread,236.14,6,32.98,29,Pending,Online,San Francisco,California,USA,949.57
+241,2514,2023-12-24,Groceries,Bread,682.61,2,5.65,36,Pending,Online,Seattle,California,USA,1288.09
+242,6986,2023-10-03,Groceries,Bread,96.78,2,22.22,19,Completed,Online,New York,California,USA,150.55
+243,5588,2023-06-18,Groceries,Milk,514.42,3,15.99,18,Pending,Online,Seattle,Texas,USA,1296.49
+244,5433,2023-07-03,Clothing,T-Shirt,143.57,1,45.56,34,Completed,Online,Seattle,Texas,USA,78.16
+245,1438,2023-07-27,Electronics,Laptop,928.86,9,15.69,35,Pending,Offline,New York,Texas,USA,7048.1
+246,1455,2023-05-02,Groceries,Eggs,284.84,5,18.88,5,Pending,Online,Seattle,Texas,USA,1155.31
+247,1572,2023-05-19,Electronics,Headphones,594.21,10,44.15,14,Pending,Offline,San Francisco,Washington,USA,3318.66
+248,3311,2023-03-23,Electronics,Headphones,413.65,7,16.71,46,Completed,Offline,Austin,Texas,USA,2411.7
+249,3892,2023-01-30,Groceries,Milk,307.68,8,34.31,36,Completed,Offline,Seattle,California,USA,1616.92
+250,1997,2023-01-30,Electronics,Headphones,80.42,8,4.54,5,Completed,Offline,San Francisco,Washington,USA,614.15
+251,2245,2023-01-05,Electronics,Headphones,689.48,8,35.46,7,Returned,Offline,Austin,Washington,USA,3559.92
+252,3458,2023-05-02,Clothing,T-Shirt,714.98,8,35.67,32,Completed,Online,New York,Washington,USA,3679.57
+253,1289,2023-03-21,Electronics,Smartphone,255.32,2,8.39,13,Returned,Online,Seattle,California,USA,467.8
+254,9595,2023-11-10,Furniture,Chair,804.59,3,3.07,31,Pending,Offline,New York,Washington,USA,2339.67
+255,9086,2023-10-14,Clothing,Jacket,34.12,8,39.09,39,Returned,Online,San Francisco,Texas,USA,166.26
+256,7314,2023-12-10,Groceries,Bread,465.74,10,42.37,11,Returned,Online,San Francisco,Texas,USA,2684.06
+257,8248,2023-01-30,Electronics,Headphones,934.29,4,32.84,34,Pending,Online,New York,California,USA,2509.88
+258,5309,2023-10-24,Electronics,Headphones,127.55,2,5.32,24,Pending,Online,New York,Texas,USA,241.53
+259,8866,2023-06-12,Electronics,Laptop,22.88,2,1.11,36,Returned,Offline,New York,Texas,USA,45.25
+260,2748,2023-08-01,Furniture,Sofa,577.63,1,21.06,29,Returned,Offline,Austin,Texas,USA,455.98
+261,5158,2023-12-20,Furniture,Table,191.96,10,18.89,10,Returned,Online,Seattle,Washington,USA,1556.99
+262,6944,2023-04-23,Groceries,Bread,569.19,3,37.96,26,Pending,Online,Seattle,Texas,USA,1059.38
+263,5443,2023-10-21,Electronics,Smartphone,640.69,6,46.96,49,Pending,Offline,New York,Texas,USA,2038.93
+264,3699,2023-07-15,Electronics,Laptop,380.02,10,21.48,48,Returned,Online,Seattle,Texas,USA,2983.92
+265,5353,2023-05-04,Furniture,Chair,342.8,1,6.94,21,Returned,Offline,Austin,Washington,USA,319.01
+266,8211,2023-06-05,Clothing,T-Shirt,107.53,4,0.16,11,Pending,Offline,Austin,California,USA,429.43
+267,6859,2023-05-14,Groceries,Bread,878.37,3,3.76,14,Pending,Offline,Seattle,California,USA,2536.03
+268,3874,2023-09-17,Electronics,Laptop,226.09,7,31.5,27,Completed,Offline,Seattle,Texas,USA,1084.1
+269,7971,2023-02-05,Electronics,Smartphone,117.0,9,3.18,31,Returned,Online,Seattle,Texas,USA,1019.51
+270,7949,2023-05-28,Groceries,Eggs,217.72,8,18.84,46,Pending,Online,New York,Washington,USA,1413.61
+271,5165,2023-02-16,Groceries,Bread,433.22,5,29.45,33,Pending,Offline,Austin,Texas,USA,1528.18
+272,6902,2023-10-03,Clothing,T-Shirt,897.65,3,22.03,20,Returned,Online,San Francisco,Texas,USA,2099.69
+273,5361,2023-04-10,Electronics,Laptop,711.7,7,49.98,14,Returned,Offline,Austin,Texas,USA,2491.95
+274,2671,2023-12-03,Clothing,Jacket,831.47,8,37.52,36,Pending,Online,New York,California,USA,4156.02
+275,4756,2023-01-18,Furniture,Table,512.13,9,24.0,26,Completed,Offline,Seattle,Washington,USA,3502.97
+276,5543,2023-11-27,Clothing,T-Shirt,623.77,6,30.02,19,Returned,Online,San Francisco,Texas,USA,2619.09
+277,5905,2023-05-09,Electronics,Laptop,881.64,10,25.3,39,Returned,Online,New York,Texas,USA,6585.85
+278,5118,2023-09-27,Clothing,Jeans,940.1,8,14.54,36,Returned,Offline,New York,Washington,USA,6427.28
+279,1810,2023-06-22,Furniture,Chair,14.89,1,7.39,9,Completed,Offline,Seattle,Texas,USA,13.79
+280,8679,2023-11-29,Furniture,Sofa,953.79,1,35.43,50,Completed,Online,Austin,Washington,USA,615.86
+281,9577,2023-07-26,Furniture,Table,826.22,3,35.94,19,Completed,Offline,Seattle,Washington,USA,1587.83
+282,4754,2023-09-24,Groceries,Eggs,244.42,9,1.07,33,Returned,Offline,Seattle,California,USA,2176.24
+283,8873,2023-05-16,Electronics,Laptop,663.96,2,13.2,19,Completed,Online,San Francisco,Texas,USA,1152.63
+284,4948,2023-12-15,Groceries,Milk,509.95,9,15.04,40,Pending,Online,New York,California,USA,3899.28
+285,6016,2023-11-10,Furniture,Table,584.72,7,6.48,30,Returned,Offline,San Francisco,Washington,USA,3827.81
+286,2560,2023-08-04,Groceries,Eggs,757.83,7,11.25,39,Returned,Offline,Austin,Washington,USA,4708.02
+287,1666,2023-07-12,Groceries,Milk,98.12,6,20.26,15,Pending,Offline,San Francisco,Washington,USA,469.45
+288,5761,2023-09-05,Clothing,T-Shirt,657.58,9,9.77,5,Returned,Offline,Seattle,California,USA,5340.01
+289,9384,2023-08-15,Clothing,Jacket,429.05,1,11.74,32,Completed,Offline,Seattle,California,USA,378.68
+290,3816,2023-02-15,Electronics,Headphones,327.79,9,48.03,25,Returned,Online,San Francisco,Washington,USA,1533.17
+291,8433,2023-09-18,Electronics,Headphones,983.7,10,32.97,43,Returned,Online,San Francisco,Washington,USA,6593.74
+292,4737,2023-06-09,Furniture,Sofa,978.5,5,39.02,18,Completed,Offline,San Francisco,California,USA,2983.45
+293,4728,2023-02-26,Groceries,Bread,634.59,1,43.08,50,Completed,Offline,San Francisco,Texas,USA,361.21
+294,7293,2023-06-22,Furniture,Chair,511.67,8,3.26,12,Pending,Offline,Seattle,Washington,USA,3959.92
+295,2967,2023-04-04,Furniture,Table,311.53,9,5.72,25,Returned,Offline,New York,California,USA,2643.39
+296,9548,2023-03-14,Electronics,Headphones,856.4,9,34.89,9,Completed,Offline,San Francisco,Washington,USA,5018.42
+297,1044,2023-08-07,Furniture,Table,755.28,10,3.24,35,Pending,Online,Austin,Texas,USA,7308.09
+298,4225,2023-11-25,Furniture,Table,655.06,4,19.09,12,Completed,Online,Austin,Texas,USA,2120.04
+299,7507,2023-03-08,Groceries,Milk,344.45,9,21.11,39,Returned,Online,Austin,Washington,USA,2445.63
+300,4367,2023-05-28,Clothing,T-Shirt,444.33,10,7.76,10,Pending,Online,Seattle,California,USA,4098.5
+301,7221,2023-02-22,Electronics,Smartphone,755.11,3,29.8,25,Pending,Online,Seattle,Texas,USA,1590.26
+302,2319,2023-09-08,Electronics,Headphones,535.58,6,8.86,46,Completed,Offline,Austin,Washington,USA,2928.77
+303,2696,2023-02-16,Clothing,Jacket,134.4,3,2.83,25,Completed,Offline,New York,Washington,USA,391.79
+304,7464,2023-10-22,Groceries,Milk,181.22,9,23.26,18,Completed,Offline,New York,Washington,USA,1251.61
+305,1314,2023-01-13,Clothing,Jeans,138.38,1,47.1,14,Pending,Online,San Francisco,Texas,USA,73.2
+306,6108,2023-05-15,Clothing,Jacket,235.38,6,1.82,50,Pending,Offline,Austin,Washington,USA,1386.58
+307,1322,2023-08-24,Clothing,Jacket,469.27,10,22.29,43,Completed,Offline,San Francisco,Texas,USA,3646.7
+308,3926,2023-12-06,Electronics,Laptop,786.79,7,43.83,24,Pending,Offline,San Francisco,California,USA,3093.58
+309,5922,2023-03-07,Clothing,Jacket,826.43,5,41.36,16,Pending,Online,Seattle,Washington,USA,2423.09
+310,1289,2023-05-14,Electronics,Laptop,614.96,5,43.6,20,Pending,Offline,New York,Texas,USA,1734.19
+311,5095,2023-11-10,Groceries,Bread,185.79,8,45.2,49,Pending,Online,New York,California,USA,814.5
+312,3573,2023-01-01,Clothing,T-Shirt,253.34,8,28.65,47,Completed,Online,New York,California,USA,1446.06
+313,4261,2023-01-23,Furniture,Table,606.58,1,14.35,5,Pending,Online,Austin,Texas,USA,519.54
+314,8693,2023-03-19,Furniture,Sofa,724.7,8,11.42,32,Returned,Offline,New York,Washington,USA,5135.51
+315,4037,2023-12-17,Electronics,Headphones,791.49,7,10.4,13,Pending,Offline,San Francisco,Washington,USA,4964.23
+316,7248,2023-07-13,Furniture,Chair,494.9,3,43.6,18,Returned,Online,San Francisco,Washington,USA,837.37
+317,8408,2023-08-21,Electronics,Laptop,849.64,3,32.28,41,Pending,Online,Austin,Washington,USA,1726.13
+318,8163,2023-12-20,Clothing,T-Shirt,176.65,5,10.46,18,Completed,Offline,Austin,Texas,USA,790.86
+319,6015,2023-05-24,Furniture,Table,938.57,2,26.1,25,Returned,Online,New York,Washington,USA,1387.21
+320,6209,2023-05-26,Electronics,Headphones,628.05,2,1.6,41,Pending,Online,Seattle,Washington,USA,1236.0
+321,8728,2023-01-29,Furniture,Sofa,952.61,2,26.75,16,Completed,Offline,San Francisco,Texas,USA,1395.57
+322,2403,2023-06-10,Groceries,Eggs,211.2,6,43.41,24,Returned,Offline,San Francisco,California,USA,717.11
+323,1389,2023-05-24,Clothing,T-Shirt,217.93,5,5.02,27,Pending,Online,New York,Washington,USA,1034.95
+324,1756,2023-10-04,Clothing,T-Shirt,446.28,2,0.11,47,Pending,Offline,San Francisco,Texas,USA,891.58
+325,9913,2023-03-25,Electronics,Headphones,382.12,8,2.66,12,Completed,Offline,Seattle,Texas,USA,2975.64
+326,7933,2023-01-07,Electronics,Headphones,147.35,4,6.53,25,Returned,Online,New York,California,USA,550.91
+327,8524,2023-04-02,Furniture,Chair,947.63,4,15.19,18,Returned,Online,Austin,Texas,USA,3214.74
+328,4635,2023-07-24,Electronics,Headphones,521.5,9,22.6,12,Returned,Offline,Austin,Texas,USA,3632.77
+329,2658,2023-08-21,Electronics,Laptop,901.41,7,47.42,31,Pending,Online,Seattle,Washington,USA,3317.73
+330,4229,2023-09-05,Electronics,Headphones,636.31,3,1.18,19,Completed,Online,New York,California,USA,1886.4
+331,8736,2023-02-01,Clothing,Jacket,532.11,8,47.67,11,Pending,Offline,New York,Texas,USA,2227.63
+332,7769,2023-12-06,Electronics,Laptop,896.67,5,30.84,24,Completed,Online,Seattle,California,USA,3100.68
+333,5117,2023-01-05,Furniture,Sofa,976.12,9,43.19,33,Returned,Online,New York,Washington,USA,4990.8
+334,3284,2023-04-03,Furniture,Table,547.09,1,2.93,39,Completed,Online,San Francisco,California,USA,531.06
+335,5186,2023-11-11,Furniture,Table,579.6,3,47.83,38,Completed,Online,Austin,California,USA,907.13
+336,6465,2023-06-29,Clothing,Jacket,130.48,4,14.77,23,Completed,Offline,New York,Washington,USA,444.83
+337,8296,2023-03-22,Electronics,Smartphone,120.23,8,19.06,37,Pending,Offline,Seattle,Texas,USA,778.51
+338,9636,2023-08-16,Electronics,Headphones,880.26,9,10.61,30,Returned,Offline,San Francisco,California,USA,7081.78
+339,4326,2023-06-19,Groceries,Milk,523.8,2,10.74,16,Completed,Offline,Austin,Washington,USA,935.09
+340,4026,2023-05-07,Groceries,Bread,865.05,6,19.89,15,Returned,Online,New York,Washington,USA,4157.95
+341,7809,2023-12-15,Electronics,Smartphone,195.08,3,22.04,14,Completed,Offline,Austin,Texas,USA,456.25
+342,9239,2023-01-13,Clothing,Jeans,778.44,1,41.07,34,Pending,Offline,New York,California,USA,458.73
+343,5751,2023-04-05,Electronics,Laptop,980.01,9,26.57,36,Returned,Online,San Francisco,Texas,USA,6476.59
+344,8000,2023-01-04,Furniture,Table,787.73,9,36.82,41,Pending,Offline,Austin,Washington,USA,4479.19
+345,6796,2023-12-29,Groceries,Bread,26.32,2,26.86,24,Pending,Online,San Francisco,Texas,USA,38.5
+346,6347,2023-09-19,Electronics,Smartphone,163.95,2,20.71,9,Returned,Online,San Francisco,Texas,USA,259.99
+347,9916,2023-08-07,Groceries,Bread,312.01,3,21.82,36,Completed,Offline,New York,California,USA,731.79
+348,6417,2023-10-03,Electronics,Headphones,676.16,6,6.78,48,Completed,Online,Seattle,Texas,USA,3781.9
+349,8705,2023-10-29,Groceries,Milk,278.9,4,22.62,27,Pending,Offline,San Francisco,California,USA,863.25
+350,4394,2023-04-10,Groceries,Eggs,644.0,1,26.65,13,Completed,Offline,Austin,Washington,USA,472.37
+351,9949,2023-12-18,Electronics,Headphones,192.72,4,31.08,31,Completed,Offline,Austin,Texas,USA,531.29
+352,3926,2023-10-08,Groceries,Eggs,100.95,3,25.98,14,Completed,Online,New York,California,USA,224.17
+353,1688,2023-10-20,Groceries,Eggs,802.23,4,9.19,39,Pending,Online,Austin,Texas,USA,2914.02
+354,7086,2023-05-19,Clothing,Jeans,661.6,9,45.52,33,Completed,Online,Seattle,Washington,USA,3243.96
+355,5628,2023-01-24,Electronics,Headphones,762.19,4,19.38,42,Returned,Offline,Seattle,California,USA,2457.91
+356,6411,2023-02-12,Electronics,Smartphone,323.0,9,26.48,45,Pending,Online,New York,Texas,USA,2137.23
+357,3248,2023-11-03,Groceries,Eggs,474.71,4,48.22,27,Completed,Offline,Seattle,Washington,USA,983.22
+358,6885,2023-04-01,Clothing,Jeans,606.31,8,19.73,25,Completed,Online,New York,California,USA,3893.48
+359,3786,2023-06-30,Furniture,Sofa,424.42,5,10.38,46,Returned,Online,Seattle,Texas,USA,1901.83
+360,8315,2023-05-04,Furniture,Table,572.29,8,46.47,37,Pending,Offline,Seattle,Washington,USA,2450.77
+361,1904,2023-12-25,Clothing,Jeans,615.89,5,28.22,37,Returned,Offline,New York,Washington,USA,2210.43
+362,8868,2023-10-04,Electronics,Laptop,188.38,3,24.55,31,Completed,Online,Austin,Washington,USA,426.4
+363,9588,2023-08-17,Electronics,Headphones,223.0,5,12.43,47,Completed,Online,New York,California,USA,976.41
+364,4636,2023-07-18,Groceries,Bread,790.4,4,34.66,25,Returned,Online,Seattle,Texas,USA,2065.79
+365,4909,2023-11-16,Furniture,Chair,667.0,5,28.38,5,Completed,Offline,Austin,Washington,USA,2388.53
+366,6396,2023-03-12,Groceries,Bread,966.89,8,15.17,20,Completed,Offline,San Francisco,California,USA,6561.7
+367,8211,2023-09-03,Electronics,Smartphone,752.96,7,3.6,47,Returned,Online,New York,Washington,USA,5080.97
+368,6453,2023-07-20,Electronics,Headphones,287.47,10,29.9,14,Completed,Online,San Francisco,California,USA,2015.16
+369,4760,2023-03-22,Clothing,Jeans,650.41,8,22.52,41,Pending,Offline,New York,Texas,USA,4031.5
+370,3259,2023-01-28,Electronics,Laptop,368.18,9,14.62,30,Returned,Online,Seattle,California,USA,2829.17
+371,9630,2023-06-13,Groceries,Bread,923.08,2,7.75,15,Completed,Online,San Francisco,Texas,USA,1703.08
+372,5457,2023-01-13,Electronics,Headphones,54.97,1,40.42,26,Pending,Online,Austin,Washington,USA,32.75
+373,9949,2023-03-09,Electronics,Headphones,230.23,5,32.01,29,Completed,Online,San Francisco,Texas,USA,782.67
+374,3555,2023-07-23,Groceries,Bread,262.33,4,17.07,6,Completed,Online,New York,Texas,USA,870.2
+375,1421,2023-03-25,Furniture,Sofa,470.88,7,11.12,26,Completed,Online,San Francisco,Washington,USA,2929.63
+376,6120,2023-01-30,Furniture,Table,35.58,5,27.42,44,Completed,Offline,New York,Texas,USA,129.12
+377,7510,2023-11-17,Clothing,T-Shirt,34.02,4,35.62,50,Pending,Online,Seattle,Texas,USA,87.61
+378,8988,2023-08-11,Furniture,Chair,242.95,10,23.41,18,Pending,Offline,Seattle,Texas,USA,1860.75
+379,7285,2023-02-01,Furniture,Sofa,719.72,4,15.94,33,Returned,Online,Austin,Washington,USA,2419.99
+380,7563,2023-07-12,Furniture,Chair,696.65,4,15.79,44,Returned,Online,New York,Texas,USA,2346.6
+381,6017,2023-12-25,Groceries,Milk,134.37,3,41.18,17,Returned,Offline,New York,Washington,USA,237.11
+382,2943,2023-12-15,Electronics,Headphones,310.51,5,36.33,31,Completed,Offline,Seattle,Washington,USA,988.51
+383,4859,2023-12-02,Clothing,Jeans,901.35,9,38.59,48,Pending,Online,Austin,Texas,USA,4981.67
+384,2759,2023-07-29,Groceries,Eggs,470.94,9,19.97,32,Completed,Online,New York,Washington,USA,3392.04
+385,8255,2023-10-07,Clothing,Jeans,654.7,5,17.33,25,Completed,Offline,Austin,Washington,USA,2706.2
+386,5087,2023-12-31,Furniture,Table,910.81,1,43.47,44,Completed,Online,New York,California,USA,514.88
+387,4230,2023-09-04,Groceries,Milk,116.94,2,21.39,41,Pending,Offline,Austin,Washington,USA,183.85
+388,1427,2023-04-09,Electronics,Smartphone,402.96,6,17.4,43,Returned,Online,New York,Texas,USA,1997.07
+389,4158,2023-09-01,Furniture,Table,984.54,9,17.04,21,Pending,Offline,Austin,California,USA,7350.97
+390,9155,2023-12-08,Furniture,Table,295.71,4,30.37,26,Returned,Online,Austin,Texas,USA,823.61
+391,8760,2023-11-16,Electronics,Smartphone,35.03,5,48.51,11,Pending,Online,Austin,California,USA,90.18
+392,1463,2023-08-19,Furniture,Table,928.1,4,39.99,34,Returned,Offline,Austin,California,USA,2227.81
+393,1945,2023-08-31,Electronics,Smartphone,766.19,2,6.04,10,Completed,Online,Seattle,Washington,USA,1439.82
+394,1840,2023-08-10,Clothing,T-Shirt,781.24,6,7.65,10,Pending,Offline,San Francisco,Texas,USA,4328.85
+395,6743,2023-09-25,Electronics,Headphones,307.02,5,33.49,9,Returned,Offline,Austin,Texas,USA,1021.0
+396,2801,2023-12-17,Groceries,Bread,455.13,5,49.55,48,Pending,Offline,Seattle,California,USA,1148.07
+397,6679,2023-09-04,Clothing,Jacket,796.13,3,48.82,42,Returned,Offline,Seattle,Washington,USA,1222.38
+398,7621,2023-08-05,Furniture,Chair,111.74,5,46.21,42,Returned,Offline,New York,Texas,USA,300.52
+399,4083,2023-04-12,Electronics,Laptop,295.13,4,46.14,21,Completed,Offline,Seattle,Texas,USA,635.83
+400,5506,2023-07-23,Clothing,Jeans,892.22,5,17.65,49,Pending,Online,San Francisco,Washington,USA,3673.72
+401,6700,2023-11-15,Clothing,Jeans,386.39,4,34.2,28,Returned,Offline,San Francisco,California,USA,1016.98
+402,3566,2023-03-12,Electronics,Laptop,230.7,2,9.25,13,Completed,Offline,Austin,California,USA,418.72
+403,9695,2023-05-25,Furniture,Sofa,749.13,4,32.81,33,Pending,Offline,San Francisco,California,USA,2013.36
+404,7370,2023-05-24,Clothing,Jacket,823.61,10,5.25,24,Pending,Online,New York,Texas,USA,7803.7
+405,4558,2023-10-04,Clothing,Jeans,310.43,8,29.73,26,Returned,Offline,New York,Texas,USA,1745.11
+406,7163,2023-08-07,Electronics,Laptop,283.1,1,47.96,19,Returned,Online,Austin,California,USA,147.33
+407,1915,2023-11-23,Furniture,Table,669.37,1,12.45,32,Returned,Offline,Austin,Washington,USA,586.03
+408,4308,2023-07-08,Clothing,Jacket,138.94,8,9.87,25,Completed,Online,New York,California,USA,1001.81
+409,3842,2023-08-09,Electronics,Smartphone,81.12,6,20.82,34,Completed,Online,San Francisco,California,USA,385.38
+410,7545,2023-12-10,Groceries,Milk,843.22,10,28.6,11,Completed,Online,Seattle,Texas,USA,6020.59
+411,9762,2023-05-24,Clothing,T-Shirt,767.31,8,12.13,47,Completed,Offline,San Francisco,Texas,USA,5393.88
+412,7101,2023-09-28,Electronics,Laptop,454.53,5,1.43,45,Completed,Online,Austin,Washington,USA,2240.15
+413,1085,2023-03-16,Furniture,Table,749.23,9,32.72,39,Pending,Offline,San Francisco,California,USA,4536.74
+414,8252,2023-12-22,Electronics,Smartphone,208.23,7,9.03,13,Pending,Offline,San Francisco,Texas,USA,1325.99
+415,4979,2023-11-19,Electronics,Headphones,641.58,4,34.03,21,Pending,Offline,New York,Texas,USA,1693.0
+416,9326,2023-11-29,Clothing,Jeans,332.22,5,24.29,29,Returned,Offline,San Francisco,Texas,USA,1257.62
+417,4747,2023-03-21,Electronics,Smartphone,373.33,8,33.34,36,Returned,Online,Seattle,Texas,USA,1990.89
+418,3096,2023-06-21,Clothing,Jeans,887.33,8,35.36,38,Completed,Online,New York,Texas,USA,4588.56
+419,1618,2023-08-08,Groceries,Bread,623.57,4,33.2,37,Completed,Offline,New York,California,USA,1666.18
+420,9685,2023-01-26,Electronics,Smartphone,392.76,1,42.55,31,Completed,Online,Seattle,Washington,USA,225.64
+421,7300,2023-08-17,Clothing,T-Shirt,243.33,10,37.19,12,Returned,Offline,Austin,Washington,USA,1528.36
+422,7763,2023-01-30,Clothing,T-Shirt,970.07,8,44.81,38,Returned,Online,Austin,California,USA,4283.05
+423,5783,2023-10-21,Groceries,Milk,948.7,5,18.8,16,Returned,Offline,New York,Texas,USA,3851.72
+424,8891,2023-12-23,Electronics,Smartphone,383.3,8,32.06,24,Completed,Online,New York,Texas,USA,2083.31
+425,8387,2023-12-10,Furniture,Sofa,998.66,7,42.58,18,Pending,Online,New York,Texas,USA,4014.01
+426,2644,2023-11-19,Groceries,Milk,270.22,8,30.84,14,Pending,Offline,San Francisco,Texas,USA,1495.07
+427,3141,2023-06-01,Electronics,Laptop,449.56,2,10.76,14,Completed,Online,San Francisco,California,USA,802.37
+428,7054,2023-08-14,Electronics,Headphones,931.44,4,20.92,18,Completed,Offline,New York,Washington,USA,2946.33
+429,6896,2023-05-19,Furniture,Table,517.81,10,1.21,44,Completed,Online,Seattle,California,USA,5115.44
+430,5774,2023-04-17,Electronics,Smartphone,825.25,4,27.21,46,Completed,Offline,Seattle,Texas,USA,2402.8
+431,4790,2023-08-24,Electronics,Headphones,643.41,5,12.65,47,Pending,Offline,New York,California,USA,2810.09
+432,9875,2023-10-27,Clothing,Jacket,224.46,1,48.85,11,Pending,Online,San Francisco,Washington,USA,114.81
+433,7677,2023-12-02,Clothing,Jeans,299.37,8,34.97,48,Completed,Online,Seattle,California,USA,1557.44
+434,9327,2023-01-31,Clothing,Jeans,858.72,9,26.64,29,Completed,Online,Seattle,California,USA,5669.61
+435,9676,2023-04-16,Electronics,Headphones,271.64,9,24.69,40,Returned,Online,San Francisco,California,USA,1841.15
+436,5195,2023-11-06,Electronics,Headphones,504.17,7,48.64,31,Returned,Online,Austin,Washington,USA,1812.59
+437,6704,2023-06-21,Clothing,Jacket,11.13,2,13.19,36,Returned,Online,New York,Texas,USA,19.32
+438,4970,2023-06-28,Clothing,T-Shirt,990.18,3,0.69,40,Pending,Online,Seattle,Texas,USA,2950.04
+439,4420,2023-07-19,Electronics,Smartphone,91.45,1,29.29,7,Returned,Offline,San Francisco,California,USA,64.66
+440,9264,2023-07-28,Groceries,Bread,293.73,6,48.54,47,Returned,Offline,Seattle,California,USA,906.92
+441,5187,2023-09-20,Clothing,Jacket,919.42,5,36.19,40,Completed,Online,Seattle,Texas,USA,2933.41
+442,1407,2023-08-26,Furniture,Sofa,472.52,5,4.31,20,Pending,Offline,New York,Texas,USA,2260.77
+443,4803,2023-08-09,Groceries,Eggs,924.75,10,4.35,39,Completed,Online,New York,California,USA,8845.23
+444,7349,2023-11-14,Furniture,Table,586.51,3,5.71,35,Pending,Offline,San Francisco,California,USA,1659.06
+445,6314,2023-05-20,Groceries,Eggs,226.7,6,40.65,50,Pending,Offline,San Francisco,Texas,USA,807.28
+446,8068,2023-12-17,Furniture,Sofa,155.31,6,21.26,8,Completed,Offline,Seattle,Washington,USA,733.75
+447,4704,2023-08-29,Groceries,Bread,71.0,10,31.42,40,Returned,Offline,Austin,California,USA,486.92
+448,6050,2023-03-23,Clothing,Jeans,561.05,5,42.55,14,Returned,Offline,New York,California,USA,1611.62
+449,5793,2023-01-27,Electronics,Laptop,629.98,3,49.62,36,Returned,Online,Austin,Washington,USA,952.15
+450,9485,2023-03-25,Groceries,Eggs,60.26,6,42.45,14,Pending,Online,Austin,Texas,USA,208.08
+451,8854,2023-11-01,Electronics,Headphones,880.5,2,10.02,42,Completed,Offline,New York,California,USA,1584.55
+452,7419,2023-09-29,Electronics,Smartphone,144.9,1,13.47,18,Returned,Online,Seattle,Texas,USA,125.38
+453,7446,2023-12-22,Groceries,Eggs,910.94,3,10.4,39,Completed,Online,New York,Texas,USA,2448.61
+454,2936,2023-01-02,Groceries,Eggs,661.71,5,28.18,20,Pending,Offline,Seattle,Texas,USA,2376.2
+455,2284,2023-09-10,Clothing,T-Shirt,65.37,2,2.02,11,Returned,Online,San Francisco,Washington,USA,128.1
+456,3370,2023-03-28,Groceries,Eggs,138.28,2,7.32,15,Completed,Online,Austin,Washington,USA,256.32
+457,3094,2023-01-06,Furniture,Sofa,966.05,1,29.55,26,Returned,Online,San Francisco,Washington,USA,680.58
+458,7070,2023-10-21,Groceries,Bread,882.03,9,49.95,46,Returned,Offline,New York,Texas,USA,3973.1
+459,4433,2023-06-24,Electronics,Smartphone,760.48,1,4.72,5,Pending,Offline,New York,California,USA,724.59
+460,9965,2023-08-12,Electronics,Headphones,146.77,7,27.81,34,Returned,Online,New York,Washington,USA,741.67
+461,3925,2023-10-21,Clothing,T-Shirt,920.28,7,9.62,49,Completed,Online,San Francisco,Washington,USA,5822.24
+462,1791,2023-12-28,Clothing,Jeans,484.71,5,38.06,49,Completed,Online,New York,California,USA,1501.15
+463,9120,2023-06-11,Groceries,Bread,199.76,10,26.75,17,Returned,Online,Austin,Texas,USA,1463.24
+464,6571,2023-07-15,Clothing,Jacket,974.44,6,8.44,23,Pending,Online,Austin,California,USA,5353.18
+465,6951,2023-11-14,Clothing,Jacket,678.49,10,29.71,33,Pending,Offline,Seattle,California,USA,4769.11
+466,3951,2023-04-01,Furniture,Table,930.9,3,12.51,33,Returned,Offline,Austin,Washington,USA,2443.33
+467,9558,2023-03-12,Groceries,Bread,741.49,1,44.78,50,Completed,Offline,San Francisco,California,USA,409.45
+468,8381,2023-08-28,Groceries,Milk,807.69,5,24.96,27,Pending,Offline,New York,Texas,USA,3030.45
+469,6319,2023-02-10,Furniture,Table,110.88,2,12.85,20,Pending,Offline,New York,Washington,USA,193.26
+470,1952,2023-11-21,Groceries,Milk,583.05,6,21.13,35,Completed,Online,New York,California,USA,2759.11
+471,2733,2023-12-11,Electronics,Smartphone,535.23,8,49.76,34,Returned,Online,New York,Washington,USA,2151.2
+472,8533,2023-10-25,Groceries,Eggs,568.29,3,18.97,50,Returned,Offline,New York,Washington,USA,1381.46
+473,7358,2023-12-30,Electronics,Laptop,328.84,5,47.07,50,Completed,Online,Seattle,California,USA,870.28
+474,9115,2023-08-03,Electronics,Headphones,859.44,10,31.03,19,Pending,Offline,Seattle,California,USA,5927.56
+475,7832,2023-02-10,Furniture,Sofa,701.05,6,0.88,25,Completed,Offline,San Francisco,California,USA,4169.28
+476,1178,2023-11-05,Groceries,Milk,901.96,3,31.08,46,Returned,Offline,New York,Texas,USA,1864.89
+477,1716,2023-10-14,Groceries,Milk,22.34,8,7.93,35,Completed,Offline,Seattle,California,USA,164.55
+478,7886,2023-01-31,Furniture,Table,276.66,5,22.53,20,Returned,Online,Austin,California,USA,1071.64
+479,9637,2023-06-19,Electronics,Laptop,803.61,7,28.23,45,Completed,Online,San Francisco,California,USA,4037.26
+480,6417,2023-10-08,Clothing,Jeans,662.34,4,47.79,8,Completed,Offline,Austin,California,USA,1383.23
+481,1436,2023-12-09,Groceries,Milk,393.91,4,25.6,28,Completed,Offline,San Francisco,Texas,USA,1172.28
+482,2229,2023-12-29,Furniture,Table,747.03,3,9.36,31,Completed,Offline,Seattle,Texas,USA,2031.32
+483,3385,2023-01-29,Electronics,Headphones,131.4,1,3.25,42,Returned,Online,Austin,Texas,USA,127.13
+484,3608,2023-06-11,Electronics,Laptop,577.69,6,10.57,38,Returned,Offline,Seattle,Washington,USA,3099.77
+485,1129,2023-04-27,Furniture,Table,714.23,8,26.75,27,Returned,Online,San Francisco,Washington,USA,4185.39
+486,9143,2023-11-12,Clothing,T-Shirt,824.53,10,24.31,16,Pending,Online,Seattle,Washington,USA,6240.87
+487,9744,2023-05-15,Clothing,T-Shirt,592.24,4,30.31,50,Pending,Online,San Francisco,Washington,USA,1650.93
+488,4350,2023-11-17,Electronics,Laptop,896.75,6,28.24,41,Completed,Offline,New York,California,USA,3861.05
+489,4657,2023-11-08,Groceries,Bread,641.57,9,47.59,38,Pending,Offline,San Francisco,Texas,USA,3026.22
+490,3917,2023-12-19,Electronics,Laptop,559.58,5,8.57,7,Completed,Online,Austin,California,USA,2558.12
+491,9398,2023-04-08,Groceries,Eggs,76.5,7,40.93,50,Returned,Offline,San Francisco,California,USA,316.32
+492,1126,2023-05-06,Electronics,Headphones,102.76,1,41.02,23,Returned,Offline,Austin,Texas,USA,60.61
+493,8881,2023-12-03,Furniture,Table,493.47,3,29.28,24,Returned,Offline,New York,Texas,USA,1046.95
+494,5176,2023-08-15,Clothing,T-Shirt,542.65,6,41.55,23,Pending,Online,New York,California,USA,1903.07
+495,7464,2023-11-03,Electronics,Headphones,760.29,4,31.55,48,Completed,Offline,Seattle,California,USA,2081.67
+496,2461,2023-11-15,Furniture,Chair,417.56,4,8.04,19,Pending,Online,San Francisco,Texas,USA,1535.95
+497,3998,2023-04-05,Furniture,Chair,771.68,4,10.86,38,Completed,Online,New York,California,USA,2751.5
+498,4984,2023-12-11,Clothing,T-Shirt,753.77,8,40.03,18,Returned,Offline,San Francisco,Washington,USA,3616.29
+499,5483,2023-03-10,Clothing,T-Shirt,775.31,9,10.37,12,Completed,Online,Seattle,Texas,USA,6254.19
+500,7676,2023-08-22,Electronics,Headphones,875.9,1,6.93,49,Returned,Offline,San Francisco,Washington,USA,815.2
